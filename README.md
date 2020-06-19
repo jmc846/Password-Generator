@@ -15,22 +15,10 @@ var specialCharacters
 <!-- AS AN employee with access to sensitive data
 
 I WANT to randomly generate a password that meets certain criteria
-var lowerAlphabet = ()
-var upperAlphabet = ()
-var specialCharacters =()
-var numbers = ()
-var generatedPassword = ()
-var userPassword
-var userPassword= Math.floor(Math.random(28)*generatedPassword.length);
-var randomStyle = []
+
 SO THAT I can create a strong password that provides greater security -->
 
-need while loop
 
-while(!validator) { passlength = parseInt(prompt("Please enter))
-if (!is Nan(paslength))
-
-}}
 
 -User is prompted with button to Generate a new passwor
 -User presses the button , to generate a password
@@ -40,14 +28,7 @@ if (!is Nan(paslength))
 <!-- RUBBER DUCKY  -->
 
 
-user is prompted to "generate secure password"-button appears
-user clicks the "generate secure password" button
-Confirm appears do you want lowercase alphabets in password? Ok or cancel 
-Confirm appears do you want uppercase alphabets in password? Ok or cancel 
-Confirm appears do you want numbers in password? Ok or cancel 
-Confirm appears do you want special characters in password? Ok or cancel 
-Prompt appears asking user to select password length between 8-28 character: userPromptInput
-password is generated based on userInputs and displayed on screen/ if not validated, alert appears stating error:
+
 
 ## Acceptance Criteria
 <!-- GIVEN I need a new, secure password
