@@ -6,8 +6,7 @@ Create an application that generates a random password based on user-selected cr
 If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
 
 ## User Story
-<!-- for (var i = 0; i < 128; i++) {
-    // alert("Generated Password") -->
+
 var lowerCase
 var upperCase
 var numeric
