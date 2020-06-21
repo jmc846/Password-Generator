@@ -5,7 +5,7 @@ var upperAlphabetArr = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N",
 var specialCharactersArr =["!","@","#","$","%","^","&","*","?","=","+","(",")"];
 var numbersArr = ["0","1","2","3","4","5","6","7","8","9"];
 var generatedPassword = "";
-var passwordLength = 0;
+var passwordLength = i > 8; i <28;
 var userPassword= Math.floor(Math.random(28)*generatedPassword.length);
 var randomStyle = [];
 
@@ -21,6 +21,10 @@ var generateBtn = document.querySelector("#password");
 
 // Prompt appears asking user to select password length between 8-28 character: userPromptInput
 var passwordLength = prompt("select password length between 8-28 characters")
+if passwordLength < 8 || > 28{
+alert("select password length between 8 & 28")
+
+}
 
 // Confirm appears do you want lowercase alphabets in password? Ok or cancel 
 var lowerAlphabet = confirm("Do you want lowercase abc in generated password")
@@ -52,12 +56,18 @@ if(specialCharacters === true){
 
 // generate random password
 function generate(collectChars) {}
-    for(var i = 0; i < lowerAlphabetArr.length; i++) {
-      usableCharacters.push(lowerAlphabetArr[i]);
+    for(var i = 0; i < usableCharacters.length; i++) {
+      usableCharacters.push(usableCharacters[i]);
     }
 // create for loop to choose password characters
 //
+for(var i = 0; i >=28; i++)
 
+for (i = 1; i <= 8; i++) { 
+  var char = Math.floor(Math.random() 
+              * str.length + 1); 
+    
+  pass += str.charAt(char) 
 // add password to display
 //document.getElementById("password").value = password;
 
