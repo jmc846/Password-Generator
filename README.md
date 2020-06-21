@@ -7,10 +7,7 @@ If you are unfamiliar with special characters, take a look at [some examples](ht
 
 ## User Story
 
-var lowerCase
-var upperCase
-var numeric
-var specialCharacters
+
 <!-- AS AN employee with access to sensitive data
 
 I WANT to randomly generate a password that meets certain criteria
@@ -19,8 +16,8 @@ SO THAT I can create a strong password that provides greater security -->
 
 
 
--User is prompted with button to Generate a new passwor
--User presses the button , to generate a password
+<!-- -User is prompted with button to Generate a new passwor
+-User presses the button , to generate a password -->
 <!-- Confirm start here -->
 
 

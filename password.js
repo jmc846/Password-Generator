@@ -60,8 +60,6 @@ for (var i = 0; i < usableCharacters.length; i++) {
   usableCharacters.push(password [i]);
 }
 // create for loop to choose password characters
-//
-
 
   for (var i = 8; i <= 28; i++) {
     var char = Math.floor(Math.generate()
@@ -69,9 +67,9 @@ for (var i = 0; i < usableCharacters.length; i++) {
 
     
     // add password to display
-     document.getElementById("password").value = password;
+     document.getElementById("#password").value = password;
 
     // Write password to the #password input
-    // 
+     
     // Add event listener to generate button
     generateBtn.addEventListener("click", "generate").value = textContent};
