@@ -10,7 +10,7 @@ var userPassword = Math.floor(Math.random(28) * generatedPassword.length);
 
 
 function collectChars(arr) {
-  for (var i = 0; i < arr.length; i++) {
+  for (var i = 1; i < arr.length; i++) {
     usableCharacters.push(arr[i]);
   }
 }
@@ -25,9 +25,9 @@ function generate() {
 
   // Prompt appears asking user to select password length between 8-28 character: userPromptInput
   var passwordLength = prompt("select password length between 8-28 characters")
-  if (passwordLength < 8 || passwordLength >= 28) {
-    alert("select password length between 8 & 28")
-
+  if (passwordLength < 8 || passwordLength >= 128) {
+    alert("select password length between 8 & 128")
+generate();
   }
 
   // Confirm appears do you want lowercase alphabets in password? Ok or cancel 
