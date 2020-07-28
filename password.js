@@ -18,24 +18,20 @@ function collectChars(arr) {
 // }}user is prompted to "generate secure password"-button appears
 var generateBtn = document.getElementById('generate');
 // user clicks the "generate secure password" button
-
-
 // generate random password
 function generate() {
 
   // Prompt appears asking user to select password length between 8-28 character: userPromptInput
-  var passwordLength = prompt("select password length between 8-28 characters")
+  var passwordLength = prompt("select password length between 8-128 characters")
   if (passwordLength < 8 || passwordLength >= 128) {
-    alert("select password length between 8 & 128")
-generate();
-  }
-
+    alert("select password length between 8 & 128");
+    generate();
+    }
   // Confirm appears do you want lowercase alphabets in password? Ok or cancel 
   var lowerAlphabet = confirm("Do you want lowercase abc in generated password")
   if (lowerAlphabet) {
     collectChars(lowerAlphabetArr);
   };
-
   // Confirm appears do you want uppercase alphabets in password? Ok or cancel 
   var upperAlphabet = confirm("Do you want uppercase abc in generated password")
   if (upperAlphabet) {
@@ -67,9 +63,7 @@ generate();
   document.getElementById('password').value = password;
   //   console.log("This works")
 };
-// create for loop to choose password characters
-
-
+// create for loop to choose password character
 
 // Write password to the #password input
 
